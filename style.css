@@ -1,6 +1,6 @@
 
 body{
-    background-color: black;
+    background-color: #242424;
     margin: 0px;
     color:white;
 
@@ -9,8 +9,80 @@ body{
 
 }
 .title {
-	background-color: black;
 	font-family:Courier New;
 	font-size: 80px;
 	color: #ed7032;
 }
+#nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #161616;
+    text-align: center;
+    
+}
+ol {
+    text-shadow: 1px 1px 1px #161616;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 22px;
+    height: 40px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+    ol a {
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+    }
+
+    ol > li {
+        float: left;
+        width: 190px;
+        height: 50px;
+        
+    }
+
+        ol > li:first-child {
+           
+        }
+
+        ol > li:hover {
+            background-color: #E0692F;
+        }
+
+            ol > li:hover > a {
+                color: #16171d;
+                text-shadow: 0px 0px 0px;
+            }
+
+        ol > li > ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            height: 40px;
+            display: none;
+        }
+
+        ol > li:hover > ul {
+            display: block;
+        }
+
+        ol > li > ul > li {
+            background-color: #161616;
+            position: relative;
+            z-index: 100;
+            }
+
+            ol > li > ul > li:hover {
+                background-color: #E0692F;
+            }
+
+                ol > li > ul > li:hover > a {
+                    color: #16171d;
+                    text-shadow: 0px 0px 0px;
+                }
