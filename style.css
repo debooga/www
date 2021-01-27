@@ -1,5 +1,16 @@
+
 body{
     background-color: black;
     margin: 0px;
     color:white;
+
+
+
+
+}
+.title {
+	background-color: black;
+	font-family:Courier New;
+	font-size: 80px;
+	color: #ed7032;
 }
