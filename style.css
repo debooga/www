@@ -1,13 +1,19 @@
-
+:root {
+    --text-primary: #ffffff;
+    --main-color: #E0692F;
+    --border-color: #484848;
+    --bg-primary: #161616;
+    --bg-secondary: #242424;
+  }
 body{
-    background-color: #242424;
+    background-color: var(--bg-secondary);
     margin: 0px;
-    color:white;
+    color:var(--text-primary);
     font-family:Courier New;
 }
 .title {
 	font-size: 80px;
-	color: #ed7032;
+	color: var(--main-color);
 }
 #nav {
     position: -webkit-sticky;
@@ -15,15 +21,13 @@ body{
     top: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: #161616;
+    background-color: var(--bg-primary);
     text-align: center;
     font-weight: 700 ;
-    height: 54px;
-    
-    
+    height: 54px;      
 }
 ol {
-    text-shadow: 1px 1px 1px #161616;
+    text-shadow: 1px 1px 1px var(--bg-primary);
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -34,7 +38,7 @@ ol {
 }
 
     ol a {
-        color: #ffffff;
+        color: var(--text-primary);
         padding-top: 5px;
         text-decoration: none;
         display: block;
@@ -48,12 +52,12 @@ ol {
         
     }
         ol > li:hover {
-            background-color: #E0692F;
+            background-color: var(--main-color);
             
         }
 
             ol > li:hover > a {
-                color: #16171d;
+                color: var(--bg-primary);
                 text-shadow: 0px 0px 0px;
             }
 
@@ -70,24 +74,21 @@ ol {
         }
 
         ol > li > ul > li {
-            background-color: #161616;
+            background-color: var(--bg-primary);
             position: relative;
             z-index: 100;
-            border: 1px solid #484848;
-            
+            border: 1px solid var(--border-color);          
            
             }
 
             ol > li > ul > li:hover {
-                background-color: #E0692F;
-                
+                background-color: var(--main-color);               
                 
             }
 
                 ol > li > ul > li:hover > a {
-                    color: #16171d;
-                    text-shadow: 0px 0px 0px;
-                    
+                    color: var(--bg-primary);
+                    text-shadow: 0px 0px 0px;                    
                 }
                 
                
