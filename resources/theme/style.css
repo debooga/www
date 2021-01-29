@@ -75,10 +75,10 @@ body{
   background-color:var(--bg-primary);
   display: block;
   width: 50%;
-  height: 42px;
+  height: 46px;
   text-align: center;
   align-items: center;
-  padding-top: 8px;
+  padding-top: 4px;
 }
 #changeToPolish{
   text-decoration: none;
@@ -86,10 +86,10 @@ body{
   background-color:var(--bg-primary);
   display: block;
   width: 50%;
-  height: 42px;
+  height: 46px;
   text-align: center;
   align-items: center;
-  padding-top: 8px;
+  padding-top: 4px;
 }
 .linknlang:link{
  
