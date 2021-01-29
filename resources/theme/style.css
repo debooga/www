@@ -69,7 +69,18 @@ body{
   color: var(--main-color);
   text-align: center;
 } 
-.buttonlang{
+.changeToEnglish{
+  text-decoration: none;
+  float:left;
+  background-color:var(--bg-primary);
+  display: block;
+  width: 50%;
+  height: 42px;
+  text-align: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.changeToPolish{
   text-decoration: none;
   float:left;
   background-color:var(--bg-primary);

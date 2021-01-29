@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./resources/theme/style.css">
   <title>Document</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
     <div id="logo">LOGO</div>
     <div id="bar">
       <a href="#" class="linknav"><div class="button">
-        Strona główna
+       <div id="menu_one">Strona główna</div>
       </div></a>
       <a href="#" class="linknav"><div class="button">
         Projekty
@@ -30,15 +30,18 @@
     </div>
     <div id="lang">
       
-		<div class="buttonlang"><a href="#" class="linklang"><img class="flag" src="./svg/eng2.svg"/></a></div>
+		<div id="changeToEnglish"><a href="#" class="linklang"><img class="flag" src="./svg/eng2.svg"/></a></div>
         
-        <div class="buttonlang"><a href="#" class="linklang"><img class="flag" src="./svg/pl.svg"/></a></div>
+    <div id="changeToPolish"><a href="#" class="linklang"><img class="flag" src="./svg/pl.svg"/></a></div>
           
   
 
   </div>
 </div>
-<div id="content"></div>
+<div id="content">
+  <div id="test">TEST</div>
+</div>
 
+<script src="./resources/lng/translate.js"></script>
 </body>
 </html>
