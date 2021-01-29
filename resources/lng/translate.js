@@ -1,13 +1,15 @@
 let languageElements = {
 	en: 
 	{
-		menu_one: "Home",
-		contact: "Contact"
+		home: "Home",
+		contact: "Contact",
+		project: "Project"
 	},
 	pl:
 	{
-		menu_one: "Strona główna",
-		contact: "Kontakt"
+		home: "Strona główna",
+		contact: "Kontakt",
+		project: "Projekt"
 	}
 }
 
@@ -19,14 +21,16 @@ let changeToPolishButton = document.getElementById("changeToPolish")
  
 function changeToEnglish() {
 	document.documentElement.lang = "en"
-	document.getElementById("menu_one").innerHTML = languageElements.en.menu_one
+	document.getElementById("home").innerHTML = languageElements.en.home
 	document.getElementById("contact").innerHTML = languageElements.en.contact
+	document.getElementById("project").innerHTML = languageElements.en.project
 }
  
 function changeToPolish() {
 	document.documentElement.lang = "pl"
-	document.getElementById("menu_one").innerHTML = languageElements.pl.menu_one
+	document.getElementById("home").innerHTML = languageElements.pl.home
 	document.getElementById("contact").innerHTML = languageElements.pl.contact
+	document.getElementById("project").innerHTML = languageElements.pl.project
 }
 changeToEnglishButton.addEventListener("click", changeToEnglish)
 changeToPolishButton.addEventListener("click", changeToPolish)
