@@ -125,7 +125,7 @@ body{
   margin-left: auto;
   background-color: var(--bg-thirdary);
   width: 1000px;
-  height: 1000px;
+  height: 10000px;
 }
 body::-webkit-scrollbar {
   width: 0.25rem;
