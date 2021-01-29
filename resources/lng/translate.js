@@ -1,7 +1,7 @@
 let languageElements = {
 	en: 
 	{
-		menu_one: "Main page",
+		menu_one: "Home",
 		contact: "Contact"
 	},
 	pl:
