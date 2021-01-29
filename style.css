@@ -3,13 +3,9 @@ body{
     background-color: #242424;
     margin: 0px;
     color:white;
-
-
-
-
+    font-family:Courier New;
 }
 .title {
-	font-family:Courier New;
 	font-size: 80px;
 	color: #ed7032;
 }
@@ -21,6 +17,9 @@ body{
     padding: 10px 0;
     background-color: #161616;
     text-align: center;
+    font-weight: 700 ;
+    height: 54px;
+    
     
 }
 ol {
@@ -36,6 +35,7 @@ ol {
 
     ol a {
         color: #ffffff;
+        padding-top: 5px;
         text-decoration: none;
         display: block;
     }
@@ -44,15 +44,12 @@ ol {
         float: left;
         width: 190px;
         height: 50px;
+        margin-right:10px;
         
     }
-
-        ol > li:first-child {
-           
-        }
-
         ol > li:hover {
             background-color: #E0692F;
+            
         }
 
             ol > li:hover > a {
@@ -76,13 +73,22 @@ ol {
             background-color: #161616;
             position: relative;
             z-index: 100;
+            border: 1px solid #484848;
+            
+           
             }
 
             ol > li > ul > li:hover {
                 background-color: #E0692F;
+                
+                
             }
 
                 ol > li > ul > li:hover > a {
                     color: #16171d;
                     text-shadow: 0px 0px 0px;
+                    
                 }
+                
+               
+               
