@@ -1,95 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-    --text-primary: #ffffff;
-    --main-color: #E0692F;
-    --border-color: #484848;
-    --bg-primary: #161616;
-    --bg-secondary: #242424;
-  }
+  --text-primary: #ffffff;
+  --main-color: #E0692F;
+  --bg-primary: #161616;
+  --bg-secondary: #242424;
+  --bg-thirdary: #323232;
+}
 body{
-    background-color: var(--bg-secondary);
-    margin: 0px;
-    color:var(--text-primary);
-    font-family:Courier New;
+  background-color: var(--bg-secondary);
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
 }
-.title {
-	font-size: 80px;
-	color: var(--main-color);
+#nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: var(--text-primary);
+  height: 50px;
+  font-weight: 500;
 }
-#nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    padding: 10px 0;
-    background-color: var(--bg-primary);
-    text-align: center;
-    font-weight: 700 ;
-    height: 54px;      
+#logo{
+  float: left;
+  background-color: var(--main-color);
+  height: 50px;
+  width: 15%;
+  
 }
-ol {
-    text-shadow: 1px 1px 1px var(--bg-primary);
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    font-size: 22px;
-    height: 40px;
-    line-height: 200%;
-    display: inline-block;
+#bar{
+  float: left;
+  height: 50px;
+  width: 70%;
+  font-size: 20px;
+}
+#lang{
+  float: left;
+  height: 50px;
+  width: 15%;
+}
+.button{
+  text-decoration: none;
+  float:left;
+  background-color:var(--bg-primary);
+  display: block;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.linknav:link{
+ 
+  text-decoration: none;
+  color:var(--text-primary);
+  text-align: center;
+}
+.linknav:visited{
+   text-decoration: none;
+  color:var(--text-primary);
+  text-align: center;
+}
+.linknav:active{
+  text-decoration: none;
+  color:var(--text-primary);
+  text-align: center;
+} 
+.linknav:hover{
+  text-decoration: none;
+  color: var(--main-color);
+  text-align: center;
+} 
+.buttonlang{
+  text-decoration: none;
+  float:left;
+  background-color:var(--bg-primary);
+  display: block;
+  width: 50%;
+  height: 42px;
+  text-align: center;
+  align-items: center;
+  padding-top: 8px;
+}
+.linknlang:link{
+ 
+  text-decoration: none;
+  color: var(--text-primary);
+  text-align: center;
+}
+.linklang:visited{
+   text-decoration: none;
+  color:var(--text-primary);
+  text-align: center;
+}
+.linklang:active{
+  text-decoration: none;
+  color:var(--text-primary);
+  text-align: center;
+} 
+.linklang:hover{
+  text-decoration: none;
+  color: var(--main-color);
+  text-align: center;
+} 
+.flag{
+  width: 40px;
+  height: 40px;
+}
+.logoimg{
+  width: 230px;
+  height: 50px;
+}
+#content{
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--bg-thirdary);
+  width: 1000px;
+  height: 1000px;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
 }
 
-    ol a {
-        color: var(--text-primary);
-        padding-top: 5px;
-        text-decoration: none;
-        display: block;
-    }
+body::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
 
-    ol > li {
-        float: left;
-        width: 190px;
-        height: 50px;
-        margin-right:10px;
-        
-    }
-        ol > li:hover {
-            background-color: var(--main-color);
-            
-        }
-
-            ol > li:hover > a {
-                color: var(--bg-primary);
-                text-shadow: 0px 0px 0px;
-            }
-
-        ol > li > ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            height: 40px;
-            display: none;
-        }
-
-        ol > li:hover > ul {
-            display: block;
-        }
-
-        ol > li > ul > li {
-            background-color: var(--bg-primary);
-            position: relative;
-            z-index: 100;
-            border: 1px solid var(--border-color);          
-           
-            }
-
-            ol > li > ul > li:hover {
-                background-color: var(--main-color);               
-                
-            }
-
-                ol > li > ul > li:hover > a {
-                    color: var(--bg-primary);
-                    text-shadow: 0px 0px 0px;                    
-                }
-                
-               
-               
+body::-webkit-scrollbar-thumb {
+  background:var(--main-color);
+}
