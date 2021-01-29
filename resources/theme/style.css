@@ -69,7 +69,7 @@ body{
   color: var(--main-color);
   text-align: center;
 } 
-.changeToEnglish{
+#changeToEnglish{
   text-decoration: none;
   float:left;
   background-color:var(--bg-primary);
@@ -80,7 +80,7 @@ body{
   align-items: center;
   padding-top: 8px;
 }
-.changeToPolish{
+#changeToPolish{
   text-decoration: none;
   float:left;
   background-color:var(--bg-primary);
