@@ -128,13 +128,19 @@ body{
   height: 10000px;
 }
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width:1rem;
+}
+::-webkit-scrollbar-button {
+  background-color: yellow;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 }
 
 body::-webkit-scrollbar-thumb {
-  background:var(--main-color);
+  background: var(--main-color);
+}
+::-webkit-scrollbar-corner {
+  background: var(--bg-secondary);
 }
