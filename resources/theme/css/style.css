@@ -20,6 +20,7 @@
   white-space: nowrap;
   direction: ltr;
   text-rendering: optimizeLegibility;
+  user-select: none;
   cursor: pointer;
 }
 html{
