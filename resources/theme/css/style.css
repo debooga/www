@@ -6,6 +6,9 @@
   --bg-secondary: #242424;
   --bg-thirdary: #323232;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: var(--bg-secondary);
   margin:0;
