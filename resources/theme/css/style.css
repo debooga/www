@@ -41,7 +41,7 @@ body{
   zoom: 100%;
 }
 .zoomIn {
-  zoom: 134%;
+  zoom: 125%;
 }
 .iconsdark {
   font-family: 'Material Icons';
@@ -199,28 +199,6 @@ body{
   align-items: center;
   padding-top: 4px;
 }
-/*.linknlang:link{
- 
-  text-decoration: none;
-  color: var(--text-primary);
-  text-align: center;
-}
-.linklang:visited{
-   text-decoration: none;
-  color:var(--text-primary);
-  text-align: center;
-}
-.linklang:active{
-  text-decoration: none;
-  color:var(--text-primary);
-  text-align: center;
-} 
-.linklang:hover{
-  text-decoration: none;
-  color: var(--main-color);
-  text-align: center;
-} 
-*/
 .iconsize{
   width: 40px;
   height: 40px;
