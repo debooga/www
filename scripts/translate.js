@@ -1,11 +1,15 @@
 
 fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/en.json?token=ASTWK2QW6JCJISO3ZABQCULACVNC2")
 .then(response => response.json())
-.then(data_en => {})
+.then(data_en => {
+	console.log(data_en.home)
+})
 
 fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/pl.json?token=ASTWK2SVNRRNII7MMCNECPDACVNWI")
 .then(response => response.json())
-.then(data_pl => {})
+.then(data_pl => {
+	console.log(data_pl.project)
+})
 
 let languageTag = document.documentElement.lang
 let changeToEnglishButton = document.getElementById("changeToEnglish")
