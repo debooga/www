@@ -81,7 +81,7 @@ body{
   font-weight: normal;
   font-style: normal;
   font-size: 40px;
-  color: #f2ff00;
+  color: var(--text);
   display: inline-block;
   line-height: 1;
   text-transform: none;
