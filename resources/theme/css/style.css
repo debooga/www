@@ -189,10 +189,10 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   padding: 15px;
   border-radius: 100px;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 .scrollbuttonsvg{
-width: 32px;
-height: 32px;
+width: 24px;
+height: 24px;
 }
