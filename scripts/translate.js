@@ -13,8 +13,6 @@ let languageElements = {
 	}
 }
 
-
-
 let languageTag = document.documentElement.lang
 let changeToEnglishButton = document.getElementById("changeToEnglish")
 let changeToPolishButton = document.getElementById("changeToPolish")
