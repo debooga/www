@@ -101,26 +101,41 @@ body{
   position: sticky;
   top: 0;
   background-color: var(--text);
-  height: 50px;
+  height: 80px;
   font-weight: 500;
 }
 #logo{
   float: left;
   background-color: var(--main-color);
-  height: 50px;
+  height: 80px;
+  min-height: 50px;
   width: 15%;
   
 }
 #bar{
   float: left;
-  height: 50px;
+  height: 80px;
+  min-height: 50px;
   width: 70%;
   font-size: 20px;
 }
 #lang{
   float: left;
-  height: 50px;
+  height: 80px;
+  min-height: 50px;
   width: 15%;
+}
+.buttonbig{
+  text-decoration: none;
+  float:left;
+  background-color:var(--nav-footer);
+  display: block;
+  width: 20%;
+  height: 67.5px;
+  min-height: 50px;
+  text-align: center;
+  align-items: center;
+  padding-top: 12.5px;
 }
 .button{
   text-decoration: none;
@@ -128,10 +143,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 20%;
-  height: 40px;
+  height: 54px;
+  min-height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 26px;
 }
 .linknav:link{
  
@@ -160,10 +176,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 46px;
+  height: 80px;
+  min-height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 4px;
+ 
 }
 #changeToPolish{
   text-decoration: none;
@@ -171,10 +188,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 46px;
+  height: 80px;
+  min-height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 4px;
+ 
 }
 #changeTheme{
   text-decoration: none;
@@ -182,10 +200,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 46px;
+  height: 80px;
+  min-height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 4px;
+  
 }
 #changeFontSize{
   text-decoration: none;
@@ -193,10 +212,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 46px;
+  height: 80px;
+  min-height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 4px;
+  
 }
 .iconsize{
   width: 40px;
@@ -211,7 +231,7 @@ body{
   margin-right: auto;
   margin-left: auto;
   background-color: var(--content);
-  width: 1000px;
+  width: 60%;
   height: 10000px;
 }
 body::-webkit-scrollbar {
