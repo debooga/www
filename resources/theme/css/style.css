@@ -176,11 +176,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 80px;
+  height: 60px;
   min-height: 50px;
   text-align: center;
   align-items: center;
- 
+  padding-top: 20px;
 }
 #changeToPolish{
   text-decoration: none;
@@ -188,11 +188,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 80px;
+  height: 60px;
   min-height: 50px;
   text-align: center;
   align-items: center;
- 
+  padding-top: 20px;
 }
 #changeTheme{
   text-decoration: none;
@@ -200,11 +200,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 80px;
+  height: 60px;
   min-height: 50px;
   text-align: center;
   align-items: center;
-  
+  padding-top: 20px;
 }
 #changeFontSize{
   text-decoration: none;
@@ -212,11 +212,11 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 80px;
+  height: 60px;
   min-height: 50px;
   text-align: center;
   align-items: center;
-  
+  padding-top: 20px;
 }
 .iconsize{
   width: 40px;
