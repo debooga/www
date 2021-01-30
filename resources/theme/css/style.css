@@ -94,6 +94,9 @@ body{
   user-select: none;
   cursor: pointer;
 }
+#zoomIcon {
+  font-size: 42.5px;
+}
 #nav{
   position: -webkit-sticky;
   position: sticky;
