@@ -20,6 +20,7 @@
   white-space: nowrap;
   direction: ltr;
   text-rendering: optimizeLegibility;
+  cursor: pointer;
 }
 html{
   scroll-behavior: smooth;
