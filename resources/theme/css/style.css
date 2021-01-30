@@ -6,6 +6,21 @@
   --bg-secondary: #242424;
   --bg-thirdary: #323232;
 }
+.icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  color: #FFB64C;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+}
 html{
   scroll-behavior: smooth;
 }
