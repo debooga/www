@@ -2,7 +2,7 @@ let languageTag = document.documentElement.lang
 let changeToEnglishButton = document.getElementById("changeToEnglish")
 let changeToPolishButton = document.getElementById("changeToPolish")
 
-fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/en.json?token=ASTWK2U2U6UO6EWHCQ3WBN3ACVOXA")
+fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/en.json?token=ASTWK2SUHT2GXLATAEVR6LLACVP3W")
 .then(response => response.json())
 .then(data => {
 	function changeToEnglish() {
@@ -14,7 +14,7 @@ fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/en.json?
 	changeToEnglishButton.addEventListener("click", changeToEnglish)
 })
 
-fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/pl.json?token=ASTWK2QSW5ZBFDM7QPOP6LTACVO2U")
+fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/pl.json?token=ASTWK2SLFU7CLBTPEVBX35TACVP5K")
 .then(response => response.json())
 .then(data => {
 	function changeToPolish() {
