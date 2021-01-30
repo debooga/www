@@ -1,5 +1,7 @@
 let zoomIcon = document.getElementById("zoomIcon")
 
+localStorage.setItem('zoom', 'zoomOut')
+
 function setZoom(zoomVar)
 {
     localStorage.setItem('zoom', zoomVar);
