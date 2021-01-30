@@ -2,6 +2,8 @@ let changeThemeButton = document.getElementById("changeTheme")
 let changeIcon = document.getElementById("changeIcon")
 let zoomChangeIcon = document.getElementById("zoomIcon")
 
+localStorage.setItem('theme', 'dark_theme')
+
 function setTheme(themeName)
 {
     localStorage.setItem('theme', themeName);
