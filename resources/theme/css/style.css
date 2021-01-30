@@ -5,7 +5,6 @@
   --bg-primary: #161616;
   --bg-secondary: #242424;
   --bg-thirdary: #323232;
-  --font-size: 20px;
 }
 html{
   scroll-behavior: smooth;
@@ -25,17 +24,17 @@ body{
 }
 .light_theme {
   --text-primary: #000000;
-  --main-color: #0004ff;
-  --bg-primary: #c0d4ba;
-  --bg-secondary: #7c7e33;
-  --bg-thirdary: #611b55;
+  --main-color: #465973;
+  --bg-primary: #8BB6C4;
+  --bg-secondary: #B3DBE1;
+  --bg-thirdary: #D8F0ED;
 }
 .access_theme {
-  --text-primary: #472666;
-  --main-color: #107070;
-  --bg-primary: #231c83;
-  --bg-secondary: #f6ff00;
-  --bg-thirdary: #adec90;
+  --text-primary: #FFFF00;
+  --main-color: #00FF00;
+  --bg-primary: #000;
+  --bg-secondary: #000;
+  --bg-thirdary: #111;
 }
 .zoomOut {
   zoom: 100%;
@@ -219,23 +218,23 @@ body::-webkit-scrollbar {
   width:1rem;
 }
 ::-webkit-scrollbar-button {
-  background-color: yellow;
+  background-color:var(--bg-thirdary);
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
 }
 
 body::-webkit-scrollbar-thumb {
   background: var(--main-color);
 }
 ::-webkit-scrollbar-corner {
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
 }
 #footer{
   width: 100%;
   height: 50px;
-  background-color: aqua;
+  background-color: var(--bg-primary);
 }
 #scrollup{
   display: none;
