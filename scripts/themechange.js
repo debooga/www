@@ -32,12 +32,15 @@ function toggleTheme()
 (function () {
     if (localStorage.getItem('theme') === 'access_theme') {
         setTheme('dark_theme');
+        zoomChangeIcon.className = 'iconsdark'
     } else {
         if (localStorage.getItem('theme') === 'light_theme')
         {
             setTheme('light_theme');
+            zoomChangeIcon.className = 'iconslight'
         } else {
             setTheme('access_theme');
+            zoomChangeIcon.className = 'iconsaccess'
         }
     }
 })
