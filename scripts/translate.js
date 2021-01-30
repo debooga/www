@@ -1,17 +1,11 @@
-let languageElements = {
-	en: 
-	{
-		home: "Home",
-		contact: "Contact",
-		project: "Project"
-	},
-	pl:
-	{
-		home: "Strona główna",
-		contact: "Kontakt",
-		project: "Projekt"
-	}
-}
+
+fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/en.json?token=ASTWK2QW6JCJISO3ZABQCULACVNC2")
+.then(response => response.json())
+.then(data_en => {})
+
+fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/pl.json?token=ASTWK2SVNRRNII7MMCNECPDACVNWI")
+.then(response => response.json())
+.then(data_pl => {})
 
 let languageTag = document.documentElement.lang
 let changeToEnglishButton = document.getElementById("changeToEnglish")
@@ -19,16 +13,16 @@ let changeToPolishButton = document.getElementById("changeToPolish")
  
 function changeToEnglish() {
 	document.documentElement.lang = "en"
-	document.getElementById("home").innerHTML = languageElements.en.home
-	document.getElementById("contact").innerHTML = languageElements.en.contact
-	document.getElementById("project").innerHTML = languageElements.en.project
+	document.getElementById("home").innerHTML = data_en.home
+	document.getElementById("contact").innerHTML = data_en.contact
+	document.getElementById("project").innerHTML = data_en.project
 }
  
 function changeToPolish() {
 	document.documentElement.lang = "pl"
-	document.getElementById("home").innerHTML = languageElements.pl.home
-	document.getElementById("contact").innerHTML = languageElements.pl.contact
-	document.getElementById("project").innerHTML = languageElements.pl.project
+	document.getElementById("home").innerHTML = data_pl.home
+	document.getElementById("contact").innerHTML = data_pl.contact
+	document.getElementById("project").innerHTML = data_pl.project
 }
 changeToEnglishButton.addEventListener("click", changeToEnglish)
 changeToPolishButton.addEventListener("click", changeToPolish)
