@@ -101,28 +101,26 @@ body{
   position: sticky;
   top: 0;
   background-color: var(--text);
-  height: 80px;
+  height: 50px;
   font-weight: 500;
 }
 #logo{
   float: left;
   background-color: var(--main-color);
-  height: 80px;
+  height: 50px;
   min-height: 50px;
   width: 15%;
   
 }
 #bar{
   float: left;
-  height: 80px;
-  min-height: 50px;
+  height: 50px;
   width: 70%;
   font-size: 20px;
 }
 #lang{
   float: left;
-  height: 80px;
-  min-height: 50px;
+  height: 50px;
   width: 15%;
 }
 .buttonbig{
@@ -130,24 +128,23 @@ body{
   float:left;
   background-color:var(--nav-footer);
   display: block;
-  width: 20%;
-  height: 67.5px;
-  min-height: 50px;
+  width: 28%;
+  height: 40px;
+  height: 38.5px;
   text-align: center;
   align-items: center;
-  padding-top: 12.5px;
+  padding-top: 11.5px;
 }
 .button{
   text-decoration: none;
   float:left;
   background-color:var(--nav-footer);
   display: block;
-  width: 20%;
-  height: 54px;
-  min-height: 50px;
+  width: 18%;
+  height: 38.5px;
   text-align: center;
   align-items: center;
-  padding-top: 26px;
+  padding-top: 11.5px;
 }
 .linknav:link{
  
@@ -176,11 +173,10 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 60px;
-  min-height: 50px;
+  height: 45px;
   text-align: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 #changeToPolish{
   text-decoration: none;
@@ -188,11 +184,10 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 60px;
-  min-height: 50px;
+  height: 45px;
   text-align: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 #changeTheme{
   text-decoration: none;
@@ -200,11 +195,10 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 60px;
-  min-height: 50px;
+  height: 45px;
   text-align: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 #changeFontSize{
   text-decoration: none;
@@ -212,11 +206,10 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 60px;
-  min-height: 50px;
+  height: 45px;
   text-align: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 .iconsize{
   width: 40px;
