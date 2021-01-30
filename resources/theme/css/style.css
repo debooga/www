@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --text-primary: #ffffff;
+  --text: #ffffff;
   --main-color: #E0692F;
-  --bg-primary: #161616;
-  --bg-secondary: #242424;
-  --bg-thirdary: #323232;
+  --nav-footer: #161616;
+  --bg: #242424;
+  --content: #323232;
 }
 html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: var(--bg-secondary);
+  background-color: var(--bg);
   margin:0;
   font-family: 'Open Sans', sans-serif;
   
 }
 .dark_theme {
-  --text-primary: #ffffff;
+  --text: #ffffff;
   --main-color: #E0692F;
-  --bg-primary: #161616;
-  --bg-secondary: #242424;
-  --bg-thirdary: #323232;
+  --nav-footer: #161616;
+  --bg: #242424;
+  --content: #323232;
 }
 .light_theme {
-  --text-primary: #000000;
+  --text: #000000;
   --main-color: #465973;
-  --bg-primary: #8BB6C4;
-  --bg-secondary: #B3DBE1;
-  --bg-thirdary: #D8F0ED;
+  --nav-footer: #8BB6C4;
+  --bg: #B3DBE1;
+  --content: #D8F0ED;
 }
 .access_theme {
-  --text-primary: #FFFF00;
+  --text: #FFFF00;
   --main-color: #00FF00;
-  --bg-primary: #000;
-  --bg-secondary: #000;
-  --bg-thirdary: #111;
+  --nav-footer: #000;
+  --bg: #000;
+  --content: #111;
 }
 .zoomOut {
   zoom: 100%;
@@ -100,7 +100,7 @@ body{
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: var(--text-primary);
+  background-color: var(--text);
   height: 50px;
   font-weight: 500;
 }
@@ -125,7 +125,7 @@ body{
 .button{
   text-decoration: none;
   float:left;
-  background-color:var(--bg-primary);
+  background-color:var(--nav-footer);
   display: block;
   width: 20%;
   height: 40px;
@@ -136,17 +136,17 @@ body{
 .linknav:link{
  
   text-decoration: none;
-  color:var(--text-primary);
+  color:var(--text);
   text-align: center;
 }
 .linknav:visited{
    text-decoration: none;
-  color:var(--text-primary);
+  color:var(--text);
   text-align: center;
 }
 .linknav:active{
   text-decoration: none;
-  color:var(--text-primary);
+  color:var(--text);
   text-align: center;
 } 
 .linknav:hover{
@@ -157,7 +157,7 @@ body{
 #changeToEnglish{
   text-decoration: none;
   float:left;
-  background-color:var(--bg-primary);
+  background-color:var(--nav-footer);
   display: block;
   width: 25%;
   height: 46px;
@@ -168,7 +168,7 @@ body{
 #changeToPolish{
   text-decoration: none;
   float:left;
-  background-color:var(--bg-primary);
+  background-color:var(--nav-footer);
   display: block;
   width: 25%;
   height: 46px;
@@ -179,7 +179,7 @@ body{
 #changeTheme{
   text-decoration: none;
   float:left;
-  background-color:var(--bg-primary);
+  background-color:var(--nav-footer);
   display: block;
   width: 25%;
   height: 46px;
@@ -190,7 +190,7 @@ body{
 #changeFontSize{
   text-decoration: none;
   float:left;
-  background-color:var(--bg-primary);
+  background-color:var(--nav-footer);
   display: block;
   width: 25%;
   height: 46px;
@@ -210,7 +210,7 @@ body{
 #content{
   margin-right: auto;
   margin-left: auto;
-  background-color: var(--bg-thirdary);
+  background-color: var(--content);
   width: 1000px;
   height: 10000px;
 }
@@ -218,23 +218,23 @@ body::-webkit-scrollbar {
   width:1rem;
 }
 ::-webkit-scrollbar-button {
-  background-color:var(--bg-thirdary);
+  background-color:var(--content);
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--bg-primary);
+  background: var(--nav-footer);
 }
 
 body::-webkit-scrollbar-thumb {
   background: var(--main-color);
 }
 ::-webkit-scrollbar-corner {
-  background: var(--bg-primary);
+  background: var(--nav-footer);
 }
 #footer{
   width: 100%;
   height: 50px;
-  background-color: var(--bg-primary);
+  background-color: var(--nav-footer);
 }
 #scrollup{
   display: none;
