@@ -20,9 +20,31 @@
   white-space: nowrap;
   direction: ltr;
   text-rendering: optimizeLegibility;
+  cursor: pointer;
 }
 html{
   scroll-behavior: smooth;
+}
+.dark_theme {
+  --text-primary: #ffffff;
+  --main-color: #E0692F;
+  --bg-primary: #161616;
+  --bg-secondary: #242424;
+  --bg-thirdary: #323232;
+}
+.light_theme {
+  --text-primary: #000000;
+  --main-color: #0004ff;
+  --bg-primary: #c0d4ba;
+  --bg-secondary: #7c7e33;
+  --bg-thirdary: #611b55;
+}
+.access_theme {
+  --text-primary: #472666;
+  --main-color: #107070;
+  --bg-primary: #231c83;
+  --bg-secondary: #f6ff00;
+  --bg-thirdary: #adec90;
 }
 body{
   background-color: var(--bg-secondary);
