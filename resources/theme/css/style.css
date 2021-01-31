@@ -277,8 +277,8 @@ body::-webkit-scrollbar-thumb {
   height: 24px;
 }
 .scrollbuttonsvg{
-width: 24px;
-height: 24px;
+  width: 24px;
+  height: 24px;
 }
 ol {
   padding: 0;
@@ -287,65 +287,50 @@ ol {
   font-size: 20px;
   text-align: center;
   align-items: center;
-  
   line-height: 200%;
   display: inline-block;
   width: 100%;
-  
+}
+  ol a {
+  padding-top: 0;
+  color: var(--text);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+ol > li {
+  float: left;
+  width: 100%;
+}
+ol > li:hover {
+background-color: var(--nav-footer);
+}
+ol > li:hover > a {
+  color: var(--main-color);
+  text-shadow: 0px 0px 0px;
+}
+ol > li > ul {
+ list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  display: none;
 }
 
-  ol a {
-    padding-top: 0;
-      color: var(--text);
-      text-decoration: none;
-      display: block;
-      width: 100%;
-      
-  }
+ol > li:hover > ul {
+  display: block;
+}
 
-  ol > li {
-      float: left;
-      width: 100%;
-     
-      
-  }
+ol > li > ul > li {
+  background-color: var(--nav-footer);
+  position: relative;
+  z-index: 100;
+}
 
-      ol > li:first-child {
-         
-      }
+ol > li > ul > li:hover {
+  background-color: var(--nav-footer);
+ }
 
-      ol > li:hover {
-          background-color: var(--nav-footer);
-      }
-
-          ol > li:hover > a {
-              color: var(--main-color);
-              text-shadow: 0px 0px 0px;
-          }
-
-      ol > li > ul {
-          list-style-type: none;
-          padding: 0;
-          margin: 0;
-          height: 50px;
-          display: none;
-      }
-
-      ol > li:hover > ul {
-          display: block;
-      }
-
-      ol > li > ul > li {
-          background-color: var(--nav-footer);
-          position: relative;
-          z-index: 100;
-      }
-
-          ol > li > ul > li:hover {
-              background-color: var(--nav-footer);
-          }
-
-              ol > li > ul > li:hover > a {
-                  color: var(--main-color);
-                  text-shadow: 0px 0px 0px;
-              }
+ol > li > ul > li:hover > a {
+  color: var(--main-color);
+}
