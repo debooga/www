@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
   --text1: #ffffff;
-  --text2: #dad1d1;
-  --main-color: #E0692F;
+  --text2: #ccc;
+  --main-color: #60BF56;
   --nav-footer: #161616;
   --bg: #242424;
   --content: #323232;
@@ -19,8 +19,9 @@ body{
 }
 .dark_theme {
   --text1: #ffffff;
-  --text2: #ebe5e5;
-  --main-color: #E0692F;
+  --text2: #ccc;
+    /*--main-color: #E0692F;*/
+  --main-color: #60BF56;
   --nav-footer: #161616;
   --bg: #242424;
   --content: #323232;
@@ -29,7 +30,7 @@ body{
   --text1: #ffffff;
   --text2: #242222;
   /*--main-color: #EF233C;*/
-  --main-color: #60BF56;
+  --main-color: #7cbdff;
   --nav-footer:#24222E;
   --bg:#C7C8CC;
   --content: #FFF;
@@ -111,12 +112,13 @@ body{
   font-weight: 500;
 }
 #logo{
-  float: left;
-  background-color: var(--main-color);
+  float: left;  
   height: 50px;
-  min-height: 50px;
   width: 15%;
-  
+  background-color: var(--main-color);
+
+  font-size: 40px;
+  text-align: center;
 }
 #bar{
   float: left;
@@ -331,7 +333,7 @@ ol > li > ul > li {
   background-color: var(--nav-footer);
   position: relative;
   z-index: 100;
-  border-top: 0.5px solid #fff;
+  border-top: 0.5px solid #ccc;
   
 }
 
