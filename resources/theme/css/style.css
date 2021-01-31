@@ -128,7 +128,7 @@ body{
   float:left;
   background-color:var(--nav-footer);
   display: block;
-  width: 28%;
+  width: 32%;
   height: 40px;
   height: 38.5px;
   text-align: center;
@@ -140,7 +140,7 @@ body{
   float:left;
   background-color:var(--nav-footer);
   display: block;
-  width: 18%;
+  width: 17%;
   height: 38.5px;
   text-align: center;
   align-items: center;
@@ -155,7 +155,7 @@ body{
   align-items: center;
   height: 45px;
   padding-top: 5px;
-  width: 18%;
+  width: 17%;
 }
 .linknav:link{
   text-decoration: none;
