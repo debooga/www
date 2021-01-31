@@ -303,7 +303,7 @@ ol > li {
   width: 100%;
 }
 ol > li:hover {
-background-color: var(--nav-footer);
+ background-color: var(--nav-footer);
 }
 ol > li:hover > a {
   color: var(--main-color);
