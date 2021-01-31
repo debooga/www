@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --text: #ffffff;
+  --text1: #ffffff;
+  --text2: #dad1d1;
   --main-color: #E0692F;
   --nav-footer: #161616;
   --bg: #242424;
   --content: #323232;
+
 }
 html{
   scroll-behavior: smooth;
@@ -16,21 +18,25 @@ body{
   
 }
 .dark_theme {
-  --text: #ffffff;
+  --text1: #ffffff;
+  --text2: #ebe5e5;
   --main-color: #E0692F;
   --nav-footer: #161616;
   --bg: #242424;
   --content: #323232;
 }
 .light_theme {
-  --text: #000000;
-  --main-color: #465973;
-  --nav-footer: #8BB6C4;
-  --bg: #B3DBE1;
-  --content: #D8F0ED;
+  --text1: #ffffff;
+  --text2: #242222;
+  /*--main-color: #EF233C;*/
+  --main-color: #60BF56;
+  --nav-footer:#24222E;
+  --bg:#C7C8CC;
+  --content: #FFF;
 }
 .access_theme {
-  --text: #FFFF00;
+  --text1: #FFFF00;
+  --text2: #ffffff;
   --main-color: #00FF00;
   --nav-footer: #000;
   --bg: #000;
@@ -47,7 +53,7 @@ body{
   font-weight: normal;
   font-style: normal;
   font-size: 40px;
-  color: #FFB64C;
+  color: var(--text1);
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -64,7 +70,7 @@ body{
   font-weight: normal;
   font-style: normal;
   font-size: 40px;
-  color: #000000;
+  color: var(--text1);
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -81,7 +87,7 @@ body{
   font-weight: normal;
   font-style: normal;
   font-size: 40px;
-  color: var(--text);
+  color: var(--text1);
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -100,7 +106,7 @@ body{
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: var(--text);
+  background-color: var(--text1);
   height: 50px;
   font-weight: 500;
 }
@@ -159,17 +165,17 @@ body{
 }
 .linknav:link{
   text-decoration: none;
-  color:var(--text);
+  color:var(--text1);
   text-align: center;
 }
 .linknav:visited{
    text-decoration: none;
-  color:var(--text);
+  color:var(--text1);
   text-align: center;
 }
 .linknav:active{
   text-decoration: none;
-  color:var(--text);
+  color:var(--text1);
   text-align: center;
 } 
 .linknav:hover{
@@ -234,7 +240,7 @@ body{
   margin-right: auto;
   margin-left: auto;
   background-color: var(--content);
-  color:white;
+  color:var(--text2);
   width: 60%;
   height: 10000px;
 }
@@ -293,7 +299,7 @@ ol {
 }
   ol a {
   padding-top: 0;
-  color: var(--text);
+  color: var(--text1);
   text-decoration: none;
   display: block;
   width: 100%;
