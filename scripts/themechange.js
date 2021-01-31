@@ -18,6 +18,7 @@ function toggleTheme()
         changeIcon.className = 'iconslight'
         changeIcon.innerHTML = 'brightness_5'
         zoomChangeIcon.className = 'iconslight'
+        changeIcon.innerHTML = "accessible"
     } else {
         if (localStorage.getItem('theme') === 'light_theme')
         {
@@ -25,11 +26,13 @@ function toggleTheme()
             changeIcon.className = 'iconsaccess'
             changeIcon.innerHTML = 'accessible'
             zoomChangeIcon.className = 'iconsaccess'
+            changeIcon.innerHTML = "brightness_3"
         } else {
             setTheme('dark_theme');
             changeIcon.className = 'iconsdark'
             changeIcon.innerHTML = 'brightness_4'
             zoomChangeIcon.className = 'iconsdark'
+            changeIcon.innerHTML = "brightness_5"
         }
     }
 }
