@@ -325,6 +325,8 @@ ol > li > ul > li {
   background-color: var(--nav-footer);
   position: relative;
   z-index: 100;
+  border-top: 0.5px solid #fff;
+  
 }
 
 ol > li > ul > li:hover {
