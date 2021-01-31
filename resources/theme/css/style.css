@@ -224,6 +224,7 @@ body{
   margin-right: auto;
   margin-left: auto;
   background-color: var(--content);
+  color:white;
   width: 60%;
   height: 10000px;
 }
