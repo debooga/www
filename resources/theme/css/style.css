@@ -296,7 +296,7 @@ ol {
 
   ol a {
     padding-top: 0;
-      color: #ffffff;
+      color: var(--text);
       text-decoration: none;
       display: block;
       width: 100%;
@@ -315,11 +315,11 @@ ol {
       }
 
       ol > li:hover {
-          background-color: #66b8d4;
+          background-color: var(--nav-footer);
       }
 
           ol > li:hover > a {
-              color: #16171d;
+              color: var(--main-color);
               text-shadow: 0px 0px 0px;
           }
 
@@ -336,17 +336,16 @@ ol {
       }
 
       ol > li > ul > li {
-          background-color: #66b8d4;
+          background-color: var(--nav-footer);
           position: relative;
           z-index: 100;
-          border-top: 1px dashed #751b1b;
       }
 
           ol > li > ul > li:hover {
-              background-color: #66b8d4;
+              background-color: var(--nav-footer);
           }
 
               ol > li > ul > li:hover > a {
-                  color: #16171d;
+                  color: var(--main-color);
                   text-shadow: 0px 0px 0px;
               }
