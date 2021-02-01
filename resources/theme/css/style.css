@@ -108,7 +108,7 @@ body{
   float: left;  
   height: 50px;
   width: 15%;
-  background-color: var(--main-color);
+  background-color: var(--nav-footer);
 }
 #bar{
   float: left;
@@ -368,4 +368,10 @@ ol > li > ul > li:hover > a {
 }
 h1{
   margin-top: 0;
+  text-align: center;
+}
+p{
+  text-align: justify;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
