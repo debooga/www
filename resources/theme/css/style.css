@@ -121,7 +121,7 @@ body{
   float: left;
   height: 50px;
   width: 70%;
-  font-size: 20px;
+  font-size: 26px;
 }
 #lang{
   float: left;
@@ -323,7 +323,7 @@ ol {
   text-decoration: none;
   display: block;
   width: 100%;
-  display: flex;
+  display: absolute;
   text-align: center;  
   align-items: center;
   justify-content: center;
@@ -331,7 +331,6 @@ ol {
 ol > li {
   float: left;
   width: 100%;
-  
 }
 ol > li:hover {
  background-color: var(--nav-footer);
@@ -366,4 +365,11 @@ ol > li > ul > li:hover {
 
 ol > li > ul > li:hover > a {
   color: var(--main-color);
+}
+#project{
+ height: 50px;
+ display: flex;
+ text-align: center;  
+  align-items: center;
+  justify-content: center;
 }
