@@ -12,7 +12,7 @@ function toggleZoom()
     if (localStorage.getItem('zoom') === 'zoomIn') {
         setZoom('zoomOut');
     
-        var el = document.querySelectorAll("div#bar, ul, h1, p");
+        var el = document.querySelectorAll("div#bar, li#resize , h1, p");
         for (var i= 0; i < el.length; i++) {
             var style = window.getComputedStyle(el[i], null).getPropertyValue('font-size');
             var fontSize = parseFloat(style);
@@ -23,7 +23,7 @@ function toggleZoom()
     } else {
         setZoom('zoomIn');
 
-        var el = document.querySelectorAll("div#bar, ul, h1, p");
+        var el = document.querySelectorAll("div#bar, li#resize, h1, p");
         for (var i= 0; i < el.length; i++) {
             var style = window.getComputedStyle(el[i], null).getPropertyValue('font-size');
             var fontSize = parseFloat(style);
