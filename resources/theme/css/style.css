@@ -159,9 +159,12 @@ body{
   display: block;
   text-align: center;
   align-items: center;
-  height: 45px;
-  padding-top: 5px;
+  height: 50px;
   width: 17%;
+  display: absolute;
+  text-align: center;  
+  align-items: center;
+  justify-content: center;
   
 }
 .linknav:link{
@@ -303,12 +306,16 @@ ol {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  font-size: 20px;
   text-align: center;
   align-items: center;
   line-height: 200%;
   display: inline-block;
   width: 100%;
+  min-height: 50px;
+  display: flex;
+  text-align: center;  
+  align-items: center;
+  justify-content: center;
 }
   ol a {
   padding-top: 0;
@@ -316,10 +323,15 @@ ol {
   text-decoration: none;
   display: block;
   width: 100%;
+  display: flex;
+  text-align: center;  
+  align-items: center;
+  justify-content: center;
 }
 ol > li {
   float: left;
   width: 100%;
+  
 }
 ol > li:hover {
  background-color: var(--nav-footer);
