@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
-  --font-size: 20px;
   --text1: #ffffff;
   --text2: #ccc;
   --main-color: #60BF56;
   --nav-footer: #161616;
   --bg: #242424;
   --content: #323232;
-
 }
 html{
   scroll-behavior: smooth;
@@ -43,12 +41,6 @@ body{
   --nav-footer: #000;
   --bg: #000;
   --content: #111;
-}
-.zoomOut {
-  --font-size: 20px;
-}
-.zoomIn {
-  --font-size: 26px;
 }
 .iconsdark {
   font-family: 'Material Icons';
@@ -122,7 +114,7 @@ body{
   float: left;
   height: 50px;
   width: 70%;
-  font-size: var(--font-size);
+  font-size: 20px;
 }
 #lang{
   float: left;

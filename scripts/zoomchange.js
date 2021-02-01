@@ -11,12 +11,22 @@ function toggleZoom()
 {
     if (localStorage.getItem('zoom') === 'zoomIn') {
         setZoom('zoomOut');
+
+        var el = document.getElementById('bar');
+        var style = window.getComputedStyle(el, null).getPropertyValue('font-size');
+        var fontSize = parseFloat(style);
+
         zoomIcon.innerHTML = "zoom_in"
-        document.getElementById("bar").className = "zoomOut"
+        el.style.fontSize = (fontSize - 6) + 'px';
     } else {
         setZoom('zoomIn');
+
+        var el = document.getElementById('bar');
+        var style = window.getComputedStyle(el, null).getPropertyValue('font-size');
+        var fontSize = parseFloat(style);
+
         zoomIcon.innerHTML = "zoom_out"
-        document.getElementById("bar").className = "zoomIn"
+        el.style.fontSize = (fontSize + 6) + 'px';
     }
 }
 
