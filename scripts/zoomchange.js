@@ -12,11 +12,11 @@ function toggleZoom()
     if (localStorage.getItem('zoom') === 'zoomIn') {
         setZoom('zoomOut');
         zoomIcon.innerHTML = "zoom_in"
-        document.body.className = "zoomOut"
+        document.getElementById("bar").className = "zoomOut"
     } else {
         setZoom('zoomIn');
         zoomIcon.innerHTML = "zoom_out"
-        document.body.className = "zoomIn"
+        document.getElementById("bar").className = "zoomIn"
     }
 }
 

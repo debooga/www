@@ -45,10 +45,10 @@ body{
   --content: #111;
 }
 .zoomOut {
-  zoom: 100%;
+  --font-size: 20px;
 }
 .zoomIn {
-  zoom: 125%;
+  --font-size: 26px;
 }
 .iconsdark {
   font-family: 'Material Icons';
