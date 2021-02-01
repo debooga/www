@@ -116,9 +116,6 @@ body{
   height: 50px;
   width: 15%;
   background-color: var(--main-color);
-
-  font-size: 40px;
-  text-align: center;
 }
 #bar{
   float: left;
@@ -135,13 +132,12 @@ body{
   text-decoration: none;
   float:left;
   background-color:var(--nav-footer);
-  display: block;
   width: 32%;
-  height: 40px;
-  height: 38.5px;
+  height: 50px;
+  display: flex;
   text-align: center;
   align-items: center;
-  padding-top: 11.5px;
+  justify-content: center;
 }
 .button{
   text-decoration: none;
@@ -149,10 +145,12 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 17%;
-  height: 38.5px;
-  text-align: center;
+  height: 50px;
+  display: flex;
+  text-align: center;  
   align-items: center;
-  padding-top: 11.5px;
+  justify-content: center;
+  
 }
 .buttonmore{
   text-decoration: none;
@@ -164,6 +162,7 @@ body{
   height: 45px;
   padding-top: 5px;
   width: 17%;
+  
 }
 .linknav:link{
   text-decoration: none;
@@ -191,10 +190,13 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 45px;
+  height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 #changeToPolish{
   text-decoration: none;
@@ -202,10 +204,13 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 45px;
+  height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 #changeTheme{
   text-decoration: none;
@@ -213,10 +218,13 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 45px;
+  height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 #changeFontSize{
   text-decoration: none;
@@ -224,10 +232,13 @@ body{
   background-color:var(--nav-footer);
   display: block;
   width: 25%;
-  height: 45px;
+  height: 50px;
   text-align: center;
   align-items: center;
-  padding-top: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .iconsize{
   width: 40px;
