@@ -13,8 +13,7 @@ html{
 body{
   background-color: var(--bg);
   margin:0;
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: 'Open Sans', sans-serif;  
 }
 .dark_theme {
   --text1: #ffffff;
@@ -339,23 +338,18 @@ ol > li > ul {
   height: 50px;
   display: none;
 }
-
 ol > li:hover > ul {
   display: block;
 }
-
 ol > li > ul > li {
   background-color: var(--nav-footer);
   position: relative;
   z-index: 100;
   border-top: 0.5px solid #ccc;
-  
 }
-
 ol > li > ul > li:hover {
   background-color: var(--nav-footer);
  }
-
 ol > li > ul > li:hover > a {
   color: var(--main-color);
 }
