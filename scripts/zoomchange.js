@@ -16,7 +16,7 @@ function toggleZoom()
         for (var i= 0; i < el.length; i++) {
             var style = window.getComputedStyle(el[i], null).getPropertyValue('font-size');
             var fontSize = parseFloat(style);
-            el[i].style.fontSize = (fontSize - 6) + 'px';
+            el[i].style.fontSize = (fontSize - 3) + 'px';
         }
 
         zoomIcon.innerHTML = "zoom_in"
@@ -27,7 +27,7 @@ function toggleZoom()
         for (var i= 0; i < el.length; i++) {
             var style = window.getComputedStyle(el[i], null).getPropertyValue('font-size');
             var fontSize = parseFloat(style);
-            el[i].style.fontSize = (fontSize + 6) + 'px';
+            el[i].style.fontSize = (fontSize + 3) + 'px';
         }
 
         zoomIcon.innerHTML = "zoom_out"
