@@ -6,9 +6,9 @@
   
   function scrollFunction() {
     if (document.body.scrollTop > 8900 || document.documentElement.scrollTop > 8900 ) {
-      mybutton.style.display = "block";
+        anime({ targets: '#scrollup', scale: 1 })
     } else {
-      mybutton.style.display = "none";
+        anime({ targets: '#scrollup', scale: 0 })
     }
   }
   

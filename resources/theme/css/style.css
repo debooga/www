@@ -269,13 +269,13 @@ body::-webkit-scrollbar-thumb {
 ::-webkit-scrollbar-corner {
   background: var(--nav-footer);
 }
-#footer{
+#footer {
   width: 100%;
   height: 50px;
   background-color: var(--nav-footer);
 }
-#scrollup{
-  display: none;
+#scrollup {
+  display: block;
   position: fixed;
   bottom: 25px;
   right: 30px;
