@@ -34,14 +34,4 @@ function toggleZoom()
     }
 }
 
-(function () {
-    if (localStorage.getItem('zoom') === 'zoomIn') {
-        setZoom('zoomIn');
-        document.body.className = "zoomIn"
-    } else {
-            setZoom("zoomOut");
-            document.body.className = "zoomOut"
-    }
-})
-
 zoomIcon.addEventListener("click", toggleZoom)
