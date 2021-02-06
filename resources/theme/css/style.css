@@ -9,12 +9,11 @@
   --fontsize: 16px;
 }
 html{
-  scroll-behavior: smooth;
-  
+  scroll-behavior: smooth;  
 }
 body{
   background-color: var(--bg);
-  margin:0;
+  margin:0;  
   font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .dark_theme {
@@ -47,7 +46,7 @@ body{
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 40px;
+  font-size: 32px;
   color: var(--text1);
   display: inline-block;
   line-height: 1;
@@ -64,7 +63,7 @@ body{
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 40px;
+  font-size: 32px;
   color: var(--text1);
   display: inline-block;
   line-height: 1;
@@ -81,7 +80,7 @@ body{
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 40px;
+  font-size: 32px;
   color: var(--text1);
   display: inline-block;
   line-height: 1;
@@ -95,7 +94,7 @@ body{
   cursor: pointer;
 }
 #zoomIcon {
-  font-size: 42.5px;
+  font-size: 32.5px;
 }
 #nav{
   position: -webkit-sticky;
@@ -104,7 +103,7 @@ body{
   display: flex;
   height:auto;
   width: 100%;
-  background: linear-gradient(245deg,#2982bd,#ee2c5d);  
+  background: linear-gradient(245deg,#2982bd,#ee2c5d); 
 }
 #logo{
   float: left; 
@@ -209,11 +208,11 @@ body{
 }
 .button:hover{
   display: inline-block;
-  background-color: #222;
+  background: linear-gradient(245deg,#373838,#242121);  
 }
 .padding{
-  padding: 1rem;
-}*/
+  padding: 0.7rem;
+}
 .paddingr{
   padding-right: 0.25rem;
 }
