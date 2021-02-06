@@ -1,11 +1,11 @@
 window.onload = function fetchData() {
-    fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/en.json")
+    fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lang/en.json")
     .then(response => response.json())
     .then(data => {
         englishData = data
     })
 
-    fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lng/pl.json")
+    fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lang/pl.json")
     .then(response => response.json())
     .then(data => {
         polishData = data
