@@ -11,8 +11,7 @@ function setTheme(themeName)
     document.documentElement.className = themeName
 }
 
-function toggleTheme() 
-{
+function toggleTheme() {
     if (localStorage.getItem('theme') === 'dark_theme') {
         setTheme('light_theme');
         changeIcon.className = 'iconslight'
