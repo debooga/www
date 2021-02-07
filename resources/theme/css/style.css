@@ -2,7 +2,7 @@
 :root {
   --text1: #ffffff;
   --text2: #ccc;
-  --main-color: #60BF56;
+  --main-color: #F1B249;
   --nav-footer: #161616;
   --bg: #242424;
   --content: #323232;
@@ -103,7 +103,8 @@ body{
   display: flex;
   height:auto;
   width: 100%;
-  background: linear-gradient(245deg,#2982bd,#ee2c5d); 
+  background: linear-gradient(245deg,#174A41,#4E774F);
+  z-index: 20; 
 }
 #logo{
   float: left; 
@@ -345,7 +346,7 @@ body{
   height: 10000px;
 }
 body::-webkit-scrollbar {
-  width:1rem;
+  width:0.25rem;
 }
 ::-webkit-scrollbar-button {
   background-color:var(--content);
@@ -461,4 +462,17 @@ p{
   text-align: justify;
   margin-right: 2rem;
   margin-left: 2rem;
+}
+.bison{
+  width: 100%;
+}
+.textbison{
+  font-size:45px;
+  position: absolute;
+  z-index: 3;
+  color:var(--text1);
+  top:600px;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
