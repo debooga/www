@@ -210,7 +210,7 @@ body{
 }
 .button:hover{
   display: inline-block;
-  background: linear-gradient(245deg,#373838,#242121);  
+  background-color: #222222;  
 }
 .padding{
   padding: 0.7rem;

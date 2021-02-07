@@ -1,5 +1,4 @@
 window.onscroll = function() { scrollFunction() }
-window.onload = function() { document.getElementById('scrollup').style.transform = "scale(0)" }
 
 var showButton
 
