@@ -105,6 +105,7 @@ body{
   width: 100%;
   background: linear-gradient(245deg,#174A41,#4E774F);
   z-index: 20; 
+  box-shadow:0 0px 10px #000;
 }
 #logo{
   float: left; 
