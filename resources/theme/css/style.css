@@ -187,7 +187,7 @@ body{
 } 
 .linknav:hover{
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--text1);
   text-align: center;
 } 
 .bar{
@@ -210,7 +210,7 @@ body{
 }
 .button:hover{
   display: inline-block;
-  background-color: #222222;  
+  background-color: var(--nav-footer);
 }
 .padding{
   padding: 0.7rem;
@@ -246,6 +246,7 @@ body{
 .dropbtn {
   position: relative;
   font-size: var(--fontsize);
+  
   background-color:transparent;
   border: none;
   cursor: pointer;
@@ -260,7 +261,7 @@ body{
 .dropdown-content {
   display: none;
   position: absolute;    
-  background-color: #3d4042;
+  background-color: var(--bg);
   z-index: 1;
   min-width:max-content;
 }
@@ -268,15 +269,11 @@ body{
 .dropdown-content a {
   text-decoration: none;
   display: block;
-  color: var(--main-color);
+  color: var(--text1);
 }
-.dropdown-content a:hover {background-color: #6ae717;}  
+.dropdown-content a:hover {background-color: var(--nav-footer);}  
 .dropdown:hover .dropdown-content {display: block;}  
-.dropdown:hover .dropbtn {background-color: #222; }
-
-
-
-
+.dropdown:hover .dropbtn {background-color: var(--nav-footer); }
 #changeToEnglish{
   text-decoration: none;
   float:left;
