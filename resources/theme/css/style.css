@@ -104,6 +104,7 @@ body{
   height:auto;
   width: 100%;
   background: linear-gradient(245deg,#2982bd,#ee2c5d); 
+  box-shadow:0 0px 10px #000;
 }
 #logo{
   float: left; 
