@@ -19,7 +19,6 @@ body{
 .dark_theme {
   --text1: #ffffff;
   --text2: #ccc;
-    /*--main-color: #E0692F;*/
   --main-color: #60BF56;
   --nav-footer: #161616;
   --bg: #242424;
@@ -28,7 +27,6 @@ body{
 .light_theme {
   --text1: #ffffff;
   --text2: #242222;
-  /*--main-color: #EF233C;*/
   --main-color: #7cbdff;
   --nav-footer:#24222E;
   --bg:#C7C8CC;
@@ -111,15 +109,7 @@ body{
   float: left; 
   width: 15%;
   height: auto;
-  
 }
-/*
-#bar{
-  float: left;
-  height: 50px;
-  width: 70%;
-  font-size: 20px;
-}*/
 #iconbar{
   float: left;
   width: 15%;
@@ -129,47 +119,6 @@ body{
   align-items: center;
   justify-content: center;
 }
-/*
-.buttonbig{
-  text-decoration: none;
-  float:left;
-  background-color:var(--nav-footer);
-  width: 32%;
-  height: 50px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.button{
-  text-decoration: none;
-  float:left;
-  background-color:var(--nav-footer);
-  display: block;
-  width: 17%;
-  height: 50px;
-  display: flex;
-  text-align: center;  
-  align-items: center;
-  justify-content: center;
-  
-}
-.buttonmore{
-  text-decoration: none;
-  float:left;
-  background-color:var(--nav-footer);
-  display: block;
-  text-align: center;
-  align-items: center;
-  height: 50px;
-  width: 17%;
-  display: absolute;
-  text-align: center;  
-  align-items: center;
-  justify-content: center;
-  
-}
-*/
 .linknav:link{
   text-decoration: none;
   color:var(--text1);
@@ -199,7 +148,6 @@ body{
   font-size: 16px;
   float: left;
   font-size: var(--fontsize);
-  
 }
 .button{
   display: inline-block;
@@ -213,7 +161,7 @@ body{
   background-color: var(--nav-footer);
 }
 .padding{
-  padding: 0.7rem;
+  padding: 1.2rem;
 }
 .paddingr{
   padding-right: 0.25rem;
@@ -385,66 +333,6 @@ body::-webkit-scrollbar-thumb {
   width: 24px;
   height: 24px;
 }
-/*
-ol {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  text-align: center;
-  align-items: center;
-  line-height: 200%;
-  display: inline-block;
-  width: 100%;
-  min-height: 50px;
-  display: flex;
-  text-align: center;  
-  align-items: center;
-  justify-content: center;
-}
-  ol a {
-  padding-top: 0;
-  color: var(--text1);
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  display: absolute;
-  text-align: center;  
-  align-items: center;
-  justify-content: center;
-}
-ol > li {
-  float: left;
-  width: 100%;
-}
-ol > li:hover {
- background-color: var(--nav-footer);
-}
-ol > li:hover > a {
-  color: var(--main-color);
-  text-shadow: 0px 0px 0px;
-}
-ol > li > ul {
- list-style-type: none;
-  padding: 0;
-  margin: 0;
-  height: 50px;
-  display: none;
-}
-ol > li:hover > ul {
-  display: block;
-}
-ol > li > ul > li {
-  background-color: var(--nav-footer);
-  position: relative;
-  z-index: 100;
-  border-top: 0.5px solid #ccc;
-}
-ol > li > ul > li:hover {
-  background-color: var(--nav-footer);
- }
-ol > li > ul > li:hover > a {
-  color: var(--main-color);
-}*/
 #project{
  height: 50px;
  display: flex;
