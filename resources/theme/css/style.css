@@ -40,41 +40,7 @@ body{
   --bg: #000;
   --content: #111;
 }
-.iconsdark {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 32px;
-  color: var(--text1);
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  text-rendering: optimizeLegibility;
-  user-select: none;
-  cursor: pointer;
-}
-.iconslight {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 32px;
-  color: var(--text1);
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  text-rendering: optimizeLegibility;
-  user-select: none;
-  cursor: pointer;
-}
-.iconsaccess {
+.icons2{
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
@@ -190,7 +156,6 @@ body{
   text-rendering: optimizeLegibility;
   user-select: none;
 }
-
 .dropbtn {
   position: relative;
   font-size: var(--fontsize);
