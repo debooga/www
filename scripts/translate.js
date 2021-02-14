@@ -1,4 +1,6 @@
-window.onload = function fetchData() {
+var isPolish = true
+
+window.onload = function() {
     fetch("https://raw.githubusercontent.com/debooga/www/main/resources/lang/en.json")
     .then(response => response.json())
     .then(data => {
@@ -12,7 +14,16 @@ window.onload = function fetchData() {
     })
 }
 
-function translate(langData, lang) {
+function translate() {
+    if(isPolish) {
+        langData = englishData
+        lang = "en"
+    }
+    else {
+        langData = polishData
+        lang = "pl"
+    }
+
     for (var x in langData) {
         for (var n = 0; n < x.length; n++) {
             var keys = Object.keys(langData)
@@ -22,8 +33,14 @@ function translate(langData, lang) {
         }
     }
     document.documentElement.lang = lang
+    
+    isPolish = !isPolish
+    if(isPolish)
+        lang = "en"
+    else
+        lang = "pl"
+
+    document.getElementById("changeLanguage").getElementsByTagName('img')[0].src="./resources/img/svg/" + lang + ".svg"
 }
 
-document.getElementById("changeToEnglish").addEventListener("click", function() { translate(englishData, "en") })
-document.getElementById("changeToPolish").addEventListener("click", function(){ translate(polishData, "pl") })
-
+document.getElementById("changeLanguage").addEventListener("click", function() { translate() })
