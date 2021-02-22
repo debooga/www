@@ -1,0 +1,28 @@
+Optimised Residential Battery Energy Storage Systems (ORBES)
+Estonia (EE)
+Project facts
+Project promoter:
+Tallinn University of Technology
+Project Number:
+EE-RESEARCH-0010
+Status:
+In implementation
+Initial project cost:
+€750,536
+Donor Project Partners
+Norwegian University of Science and Technology
+Other Project Partners
+Kaunas University of Technology
+Riga Technical University
+More information
+•	Project website
+Description
+The growing market of small-scale residential renewable energy generation and storage systems, instigates the research and development of energy management methods to handle the problems connected with necessity of delivering and storing more electric power as well as to attain more optimal use of resources and ensure security of supply.
+ The project is focused on the area of small-scale residential battery storage, which currently lack flexible energy management systems that can enable their effective coordination and optimal utilisation of their potential. The project aims to address this problem from multiple levels: electronic components, power electronic interfaces and system-wide energy management algorithms. By performing comprehensive analysis and optimisation of the battery energy storage systems at various levels, it possible utilise the most accurate data and deliver high-quality results.
+The models for forecasting of the electricity demand and supply in the Baltic Sea region from renewable energy sources will allow to create and investigate the energy management profiles that will reveal operating profiles for battery energy storage systems. These profiles are going to be used for research and multi-objective optimisation of power electronic converters, particularly in terms of efficiency and cost. This work will be used as input for further development and optimisation of energy management algorithms to take maximal advantage of battery storage systems.
+The work implies constant data exchange between the project partners to ensure high-relevance of the research. The outcomes will increase the awareness of the feasibility of residential battery storage systems in the Baltic Sea Region. The project will lay foundations for development and assessment of possible business models concerning DSOs, aggregators and prosumers, aiming to reduce life cycle costs, enable effective demand response programs and take the most benefits from this emerging technology.
+Opis Projektu:
+Rosnący rynek domowych generatorów energii odnawialnej zachęca do badań nad metodami zarządzania energią, aby poradzić sobie z problemami związanymi z potrzebą dostarczania i przechowywania większej ilości energii elektrycznej, jak najefektywniej używać zasobów oraz uczynić te procesy jak najbezpieczniejszymi. 
+Głównym celem projektu są baterie używane przechowywania wytworzonej lokalnie energii, które obecnie nie mają odpowiednio adaptacyjnych systemów zarządzania energią pozwalających na efektywną koordynację i osiągnięcie ich pełnego potencjału. Projekt ma rozwiązać ten problem na wiele sposobów: używając elektronicznych komponenty, interface służący do zarządzania czy za pomocą algorytmów zarządzania energią. Poprzez przeprowadzenie dokładnej analizy i optymalizacji systemów przechowywania energii można dojść najdokładniejszych danych i dostarczyć wysokiej jakości wyniki.
+Modele przepowiadania popytu na energię elektryczną i podaży odnawialnej energii w regionie morza bałtyckiego pozwolą na stworzenie profili zarządzania energią, które pokażą profile operacyjne dla systemów przechowywania energii w bateriach. Profile te zostaną użyte  do badań oraz optymalizacji elektronicznych konwerterów energii, w szczególności ich efektywności i kosztu. Prace te zostaną użyte do zapoczątkowania dalszego rozwoju i optymalizacji algorytmów zarządzania energią pozwalających ma maksymalne wykorzystanie baterii.
+Projekt oznacza ciągłą wymianę danych pomiędzy partnerami projektowymi aby zapewnić wysokie znaczenie badań. Wyniki zwiększą powszechną świadomość o możliwościach lokalnych systemów przechowywania energii w regionie morza bałtyckiego. Projekt położy fundamenty pod rozwój modeli biznesowych dotyczących agregatów, prosumentów i DSO, mających na celu zmniejszenie kosztów, pozwolenie na efektywną odpowiedź na zapotrzebowanie na energię i zyskaniu jak naj więcej z tej rozwijającej się technologii.
