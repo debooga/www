@@ -6,40 +6,17 @@
   <link rel="stylesheet" href="./resources/theme/css/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="icon" type="image/png" href="./resources/img/zubr.png">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <title>Projekt na konkurs</title> 
 </head>
 <body>
   <div id="nav">
-    <div id="logo">LOGO</div>
-    <div class="bar text-color">
-      <a class="linknav"href="./index.html"><div class="button padding ">
-          <span class="icons text-top paddingr">home</span><span id="home">Strona główna</span>
-      </div></a>
-      <a class="linknav" href="#"><div class="button padding ">
-        <span class="icons text-top paddingr">assessment</span><span id="info_norwegian">Fundusze Norweskie i EOG</span>
-    </div></a>
-      <div class="dropdown  ">
-        <button class="dropbtn padding text-color resize"><span class="icons text-top paddingr ">arrow_downward</span><span id="projects">Projekty</span></button>
-        <div class="dropdown-content">
-          <a class="padding resize" href="./bisons.html">Rozwój metapopulacji żubra</a>
-          <a class="padding resize" href="#">Link 2</a>
-          <a class="padding resize" href="#">Link 3</a>
-        </div>
-      </div>
-      <a class="linknav" href="#"><div class="button padding ">
-        <span class="icons text-top paddingr">perm_contact_calendar</span><span id="contact">Kontakt</span>
-    </div></a>
-      <a  class="linknav"href="#"><div class="button padding">
-          <span class="icons text-top paddingr">more_vert</span><span id="more">Więcej</span>
-      </div></a>
-    </div>
-    <div id="iconbar">
-		<div id="changeToEnglish"><img class="iconsize" src="./resources/img/svg/eng.svg"/></div>
-    <div id="changeToPolish"><img class="iconsize" src="./resources/img/svg/pl.svg"/></div>
-    <div id="changeTheme"><span id="changeIcon" class="icons2">brightness_5</span></div>
-    <div id="changeFontSize"><span id="zoomIcon" class="icons2" >zoom_in</span></div>
   </div>
-</div>
+  <script>
+    $(function(){
+      $("#nav").load("https://raw.githubusercontent.com/debooga/www/main/nav.html");
+    });
+    </script>
 <div id="content"><span onclick="topFunction()" id="scrollup" title="Go up"><img class="scrollbuttonsvg" src="./resources/img/svg/scrollbutton.svg"/></span></a>
 </div>
 
