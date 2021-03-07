@@ -297,21 +297,26 @@ h1{
   margin-top: 0;
   text-align: center;
 }
-p{
-  text-align: justify;
-  margin-right: 2rem;
-  margin-left: 2rem;
+.block{
+  background-color: #833214;
+  float: left;
+  height: 30vh;
+  width: 25%;
+  position: relative;
 }
-.bison{
+.imgblock{
+  height: 100%;
+  width:100%;
+}
+.textblock{
   width: 100%;
-}
-.textbison{
-  font-size:45px;
+  margin: 0;
+  padding: 0;
   position: absolute;
-  z-index: 3;
-  color:var(--text1);
-  top:600px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%;
   display: block;
+  max-width: max-content;
 }
